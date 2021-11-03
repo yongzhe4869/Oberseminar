@@ -13,3 +13,4 @@ Hence, the main advantage of MEC is ultra-low latency which meets the requiremen
 ## challenges
 *  UE Mobility
 * Security and Privacy
+## MEC Structure
