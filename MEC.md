@@ -21,5 +21,5 @@ Network slicing can divided one network into different instances. By different s
 It is difficult to ensure continous connection between MEC server and high speed devices. Consideration of multi-path in MEC server is also a big challenge.
 * Security and Privacy  
 Because additional MEC cloud platform locate beside BS it is easier to attact and reveal personal information. 
-## MEC Structure  
-
+## MEC Structure   
+[]!https://github.com/yongzhe4869/Oberseminar/blob/main/Figures/MEC.PNG
