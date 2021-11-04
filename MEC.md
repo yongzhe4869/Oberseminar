@@ -10,11 +10,15 @@ Smart City include several services such as energy saving, Video analyze and mon
 * Autonomous Car   
 According to MEC server nearby each BS vehicle can adjust its moving angle and receive traffic congestion information.
 ## MEC enabling Technology  
-* Software Deﬁned Network(SDR)
-
-* Network Function Virtualization(NFV)
-* Network slicing
+* Software Deﬁned Network(SDN)   
+SDN advocates replacing standardized network protocols with software applications. And SDN also provides possibility to program network which faciliates connections between MEC service. 
+* Network Function Virtualization(NFV)  
+NEV advocates replacing hardware elements using software running on COTS computers. SDN structure can be insert into NFV structure, most MEC components can regard as Virtualized Network Function(VNF). But NFV cannot provide MEC orchestration part and CFS portal, Device App, Use App LCM proxy.  
+* Network slicing  
+Network slicing can divided one network into different instances. By different slices MEC can improve more services and capacity. And the combination of SDN and NFV is necessary for network slicing service.
 ## challenges
-*  UE Mobility
+*  UE Mobility  
+It is difficult to ensure continous connection between MEC server and high speed devices. Consideration of multi-path in MEC server is also a big challenge.
 * Security and Privacy
+Because additional MEC cloud platform locate beside BS it is easier to attact and reveal personal information. 
 ## MEC Structure
