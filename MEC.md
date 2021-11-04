@@ -22,4 +22,4 @@ It is difficult to ensure continous connection between MEC server and high speed
 * Security and Privacy  
 Because additional MEC cloud platform locate beside BS it is easier to attact and reveal personal information. 
 ## MEC Structure   
-[]!https://github.com/yongzhe4869/Oberseminar/blob/main/Figures/MEC.PNG
+![](https://github.com/yongzhe4869/Oberseminar/blob/main/Figures/MEC.PNG)
