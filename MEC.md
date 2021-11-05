@@ -24,4 +24,7 @@ Because additional MEC cloud platform locate beside BS it is easier to attact an
 ## MEC Structure   
 ![](https://github.com/yongzhe4869/Oberseminar/blob/main/Figures/MEC.PNG)    
 Three parts: MEC Host, MEC Platform Manager and MEC Orchestrator.    
-Data plane is located in MEC host, it is responsible for allocating, maintaining, and releasing virtual resources of the “virtualization infrastructure”.  
+Data plane is located in MEC host, it is responsible for allocating, maintaining, and releasing virtual resources of the “virtualization infrastructure”. MEC APPs will run in this MEC host and ME Platform will provide some local services. The network-related APIs are exposed by MEC service to MEC Apps through reference point Mp1. The MEC service include at least three types:
+* Radio Network conditions
+* Location information (for example, location of a User Equipment(UE))
+* Bandwidth Manager- The Bandwidth Manager service
