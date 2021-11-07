@@ -35,5 +35,5 @@ MEC Platform manager performs same functions or a little more then the VNFM in N
 There should be a layer above MEC platform manager that can coordinate between different MEC platform managers. That is where MEC orchestrator comes into the picture and this effectively completes our ETSI architecture. It has following functions:   
 * Lifecycle management of MEC Apps ( Compare this with MEC Platform manager, which can do a similar function). The Orchestrator achieves this function by talking to the application through the MEC platform manager.
 * on-boarding of application packages, including checking the integrity and authenticity of the packages.
-* Last but not the least, selecting appropriate MEC host(s) for application instantiation based on constraints, such as latency, available resources, and available services
+* Last but not the least, selecting appropriate MEC host(s) for application instantiation based on constraints, such as latency, available resources, and available services  
 literatur: [here](https://telcocloudbridge.com/blog/beginners-guide-to-mec-architecture-multi-access-edge-computing/)
