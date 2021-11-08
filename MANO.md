@@ -13,4 +13,8 @@ If we want to research MEC MANO framework, we need know NFV structure first. The
     * OSS deals with network management, fault management, configuration management and service management. 
     * BSS deals with customer management, product management and order management etc.
     * It can be integrated with NFV MANO.  
-![](https://github.com/yongzhe4869/Oberseminar/blob/main/Figures/NFV.PNG)
+![](https://github.com/yongzhe4869/Oberseminar/blob/main/Figures/NFV.PNG)  
+
+## NFV Orchestration framework
+Nowadays there are many open sourse NFV Orchestration frameworks supported by different platform. Our work is to find gap between different MANO frameworks and design a solution to integrate two different framework together. One framework OPNFV is supported by my supervisor and another MANO is Open sourse MANO.
+#### OPNFV 
