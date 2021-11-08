@@ -7,4 +7,6 @@ If we want to research MEC MANO framework, we need know NFV structure first. The
   * physical part: Compute, Memory and Networking Resources
   * virtual part: Compute, Memory and Networking Resources
   * Virtualization Layer(Hypervisor) is responsible for abstracting physical resources into virtual resources and can be virtualized using SDN layer.  
+* VIM (Virtualized Infrastructure Manager)  is responsible for controlling and managing the NFVI elements. It is also responsible for collection of performance measurements and events.
+* NFV Orchestrator(NFVO) is also responsible for global resource management of NFVI resources. It can connect to VNF indirectly through VIM and VNFM.  
 ![](https://github.com/yongzhe4869/Oberseminar/blob/main/Figures/NFV.PNG)
