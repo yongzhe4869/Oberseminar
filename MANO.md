@@ -1,4 +1,10 @@
 ## NFV structure
 If we want to research MEC MANO framework, we need know NFV structure first. The following figure shows the whole NFV structure defined by ESTI. It is divided into 4 parts and each part have its subclasses:
-* 
+* VNF (Virtualized Network Function) is basic block in NFV architecture and can be inserted MEC function.
+* EM (Element Management) is responsible for the functional management of VNF i.e. FCAPS ( Fault, Configuration, Accounting, Performance and Security Management). One EMS can manage one VNF or multi-VNF.
+* VNF Manager (VNFM) manages one VFN or multi-VNF in virtual part, it does the life cycle management of VNF instances. Life cycle management means setting up/ maintaining and tearing down VNFs.
+* NFVI (Network Functions Virtualization Infrastructure)
+  * physical part: Compute, Memory and Networking Resources
+  * virtual part: Compute, Memory and Networking Resources
+  * Virtualization Layer(Hypervisor) is responsible for abstracting physical resources into virtual resources and can be virtualized using SDN layer.  
 ![](https://github.com/yongzhe4869/Oberseminar/blob/main/Figures/NFV.PNG)
