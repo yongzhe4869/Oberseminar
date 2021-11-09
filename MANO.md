@@ -28,4 +28,8 @@ OSM is an ESTI hosted open sourse project. It focuses on almost all parts of NFV
 *  virtual infrastructure manager (OpenVIM and Openstack) 
 *  ﬁnally service VNFs (Metaswitch and 6wind).   
 #### Open Baton
-Open Baton is an opensource project led by Fraunhofer Focus and TU Berlin. It is now being used by a few European projects and is available under GitHub and apache 2.0 license. Open Baton is also based on ETSI NFV phase 1 reference architectural framework and MANO specifications. It is not aligned yet with the IFA interface specifications. It provides an NFVO building block, a Generic VNFM, a component for EMS, a dashboard, supports multiple OpenStack VIM and provides a plug-in mechanism for other VIM. It also supports specific VNFM. It is implemented in java with the spring.io framework which supports VNF Package defined with json to include the VNF descriptors, scripts and metadata, and a link to the image
+Open Baton is an opensource project led by Fraunhofer Focus and TU Berlin. It is now being used by a few European projects and is available under GitHub and apache 2.0 license. Open Baton is also based on ETSI NFV phase 1 reference architectural framework and MANO specifications. 
+* It is not aligned yet with the IFA interface specifications. 
+* It provides an NFVO building block, a Generic VNFM, a component for EMS, a dashboard, supports multiple OpenStack VIM and provides a plug-in mechanism for other VIM. 
+* It also supports specific VNFM. 
+* It is implemented in java with the spring.io framework which supports VNF Package defined with json to include the VNF descriptors, scripts and metadata, and a link to the image
