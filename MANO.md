@@ -32,4 +32,10 @@ Open Baton is an opensource project led by Fraunhofer Focus and TU Berlin. It is
 * It is not aligned yet with the IFA interface specifications. 
 * It provides an NFVO building block, a Generic VNFM, a component for EMS, a dashboard, supports multiple OpenStack VIM and provides a plug-in mechanism for other VIM. 
 * It also supports specific VNFM. 
-* It is implemented in java with the spring.io framework which supports VNF Package defined with json to include the VNF descriptors, scripts and metadata, and a link to the image
+* It is implemented in java with the spring.io framework which supports VNF Package defined with json to include the VNF descriptors, scripts and metadata, and a link to the image   
+#### Cloudify
+Cloudify is another open source framework supported by Gigaspaces Technology. The original focus of the Cloudify platform was orchestration of application deployment in a cloud.  This platform combines both NFVO and generic VNFM components of the MANO defined entities
+* It provides compute, network, storage for application provisioning and deployment. 
+* Cloudify offers interoperability among diverse cloud platforms (e.g., VMware, Cloudstack, Amazon, and Azure) and reduces multi-vendor lock-in.
+* some interfaces and actions specified by the NFV IFA subgroup are not present or considered as out of scope for the Cloudify platform. 
+* Cloudify is aligned with the MANO reference architecture but not fully compliant.
