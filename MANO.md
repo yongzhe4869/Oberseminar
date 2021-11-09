@@ -15,6 +15,15 @@ If we want to research MEC MANO framework, we need know NFV structure first. The
     * It can be integrated with NFV MANO.   
 ![](https://github.com/yongzhe4869/Oberseminar/blob/main/Figures/NFV.PNG)  
 
+### MEC with NFV 
+The VNFM does the life cycle management of VNFs ( creation, deletion, maintenance)Now that MEC functions are converted into VNFs, we would naturally need corresponding VNFMs. This is done by two VNFMs as following.
+* VNFM to manage life cycle of MEC Apps. 
+* VNFM to mange life cycle of MEC Platfrom 
+* MEC platform Element Management and MEC App rules & requirements management” becomes a VNF labeled
+* MEC App life cycle management” is mapped to VNFM 
+* MEC orchestration is the most important component that is missing in NFV
+![](https://github.com/yongzhe4869/Oberseminar/blob/main/Figures/inter.PNG)
+
 ## NFV Orchestration framework
 Nowadays there are many open sourse NFV Orchestration frameworks supported by different platform. Our work is to find gap between different MANO frameworks and design a solution to integrate two different framework together. One framework OPNFV is supported by my supervisor and another MANO is Open sourse MANO.
 #### OPNFV 
