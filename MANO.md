@@ -20,7 +20,7 @@ Nowadays there are many open sourse NFV Orchestration frameworks supported by di
 #### OPNFV 
 OPNFV is an open source project hosted by the Linux Foundation and establishes NFV platform. OPNFV focuses on building NFVI and VIM by integrating components from upstream projects such as OpenDaylight, OVN, OpenStack, Kubernetes, Ceph Storage, KVM, Open vSwitch, Linux, DPDK and FD.io. The main basic language is python.
 #### Open sourse MANO(OSM)
-OSM is an ESTI hosted open sourse project. It focuses on almost all parts of NFV and different part is supportrd by different drivers. SDN controller is possible to be used in NFV structure and basic language is python.
+OSM is an ESTI hosted open sourse project. It focuses on almost all parts of NFV and different part is supportrd by different drivers. SDN controller is possible to be used in NFV structure and basic language is python. OSM leverages OpenMANO for Resource Orchestration(RO), and Juju for VNF configuration and management, but OSM also introduces a component for Service Orchestration(SO), provided by Rift.io Riftware which is beyond the ETSI NFV current scope.
 * resource orchestrator (Telefonica OpenMANO)
 *  VNF conﬁguration component (Canonical Juju)
 *  network service orchestrator (RIFT.io), GUI (RIFT.io)
